@@ -1,28 +1,8 @@
-RAO UDMI RAM PALACE — FIXED WEBSITE UPLOAD
-
-IMPORTANT: This package uses image files at the SAME LEVEL as index.html. Your current GitHub repository did not contain an images/ folder, which caused the photos to be missing.
-
-FILES TO UPLOAD TO THE ROOT OF YOUR GITHUB REPOSITORY:
-- index.html
-- rurp-logo.jpg
-- entrance.jpg
-- stage.jpg
-- night-entrance.jpg
-
-HOW TO UPDATE:
-1. Download and extract this ZIP on your computer.
+1. Download and extract this ZIP.
 2. Open https://github.com/raoudmirampalace-cloud/rao-udmi-ram-palace
 3. Click Add file > Upload files.
-4. Select the FIVE files listed above from this extracted folder (do not select this ZIP or this instruction file).
-5. If GitHub says a file already exists, upload the new version and confirm/commit the changes.
-6. Scroll down and click Commit changes.
-7. Wait 2–5 minutes, open https://raoudmirampalace-cloud.github.io/rao-udmi-ram-palace/ and press Ctrl+F5.
+4. From the extracted folder, select index.html, rurp-logo.jpg, entrance.jpg, stage.jpg, night-entrance.jpg (and optionally rurp-logo.svg). Select the files themselves, not their containing folder.
+5. Scroll down and Commit changes to main. Replace the existing files when prompted.
+6. Wait 2–5 minutes. Open https://raoudmirampalace-cloud.github.io/rao-udmi-ram-palace/ and press Ctrl+F5.
 
-EXPECTED REPOSITORY ROOT:
-index.html
-rurp-logo.jpg
-entrance.jpg
-stage.jpg
-night-entrance.jpg
-
-The page now loads photos from root-level filenames (no images/ subfolder required) and includes Instagram and YouTube logos inside the social links.
+The previous entrance image was WebP data with a .jpg extension. This package fixes that by creating a genuine JPEG.
